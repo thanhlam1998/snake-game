@@ -4,8 +4,8 @@ import SnakeGame from "./components/SnakeGame";
 
 function App() {
   return (
-    <div className="text-center">
-      <h1>Snake game with react</h1>
+    <div className="container text-center">
+      <h1 className="mt-3">Snake game with react</h1>
       <SnakeGame />
     </div>
   );
